@@ -571,7 +571,8 @@ aside.cta-quote span.quote {
 }
 .about-carousel .item .caption {
   padding: 15px;
-  padding-top: 190px;
+  padding-top: 230px;
+  /*changed from 190 ^*/
   /*padding-right: 50px;*/
   color: rgba(255, 255, 255, 0.7);
   width: 100%;
@@ -1228,3 +1229,9 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 
 }
 
+.writing{
+font-family: 'Roboto', sans-serif;
+}
+.writing2{
+font-family: 'Lora', serif;
+}
