@@ -328,13 +328,14 @@ header .scroll-down .btn:hover {
     padding: 0;
     background-attachment: scroll;
   }
+
   header .intro-content {
     color: white;
     text-align: center;
     width: 50%;
     margin: auto;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -352,27 +353,59 @@ header .scroll-down .btn:hover {
     max-width: 300px;
     max-height: 300px;
   }
+  header .cursive1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  header .cursive2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  header .cursive3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    line-height: 80px;
+  }
 }
 
 header .cursive1{
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px;
-  line-height: 30px;
-}
-header .cursive2{
-  font-family: 'Parisienne', cursive;
-  font-size: 30px;
-  line-height: 30px;
-}
-header .cursive3{
-  font-family: 'Great Vibes', cursive;
-  font-size: 80px;
-  line-height: 80px;
-}
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  header .cursive2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  header .cursive3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    line-height: 60px;
+  }
+  
 
 @media (min-width: 1025px) {
   header {
     background-attachment: fixed;
+  } 
+
+  header .cursive1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  header .cursive2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  header .cursive3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    line-height: 80px;
   }
 }
 header.video .overlay {
@@ -392,6 +425,21 @@ header.video .scroll-down {
 @media (min-width: 768px) {
   header.video .overlay {
     opacity: .5;
+  }
+  header .cursive1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  header .cursive2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  header .cursive3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    line-height: 80px;
   }
 }
 aside.cta-quote {
